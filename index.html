@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Coding Assesment L2 boilerplate</title>
+
+</head>
+
+<body>
+    <!-- Your code goes here -->
+    <p class="choice-container">SELECT YOUR CHOICE</p>
+    <div class="tabs">
+        <button class="tab" onclick="showProducts('Men')">Men</button>
+        <button class="tab" onclick="showProducts('Women')">Women</button>
+        <button class="tab" onclick="showProducts('Kids')">Kids</button>        
+    </div>
+    <div id="menProducts" class="product-container" >
+        <!-- Men's Product Cards will be displayed here -->
+    </div>
+    <div id="womenProducts" class="product-container" style="display: none;">
+        <!-- Women's Product Cards will be displayed here -->
+    </div>
+    <div id="kidsProducts" class="product-container" style="display: none;">
+        <!-- Kids' Product Cards will be displayed here -->
+    </div>
+    <script src="./script.js"></script>  
+</body>
+</html>
